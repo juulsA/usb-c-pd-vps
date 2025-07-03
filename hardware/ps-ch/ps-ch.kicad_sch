@@ -2987,7 +2987,7 @@
 		)
 		(uuid "4b699cbe-8b6f-4b60-90eb-775f08a0d626")
 	)
-	(text_box "ToDos:\n- 3V3 voltage generation for Bias, INA745x and dig. potentiometers\n- 1V rail for generation lower output voltages than 1V\n- calculate resistor dividers\n- give all components a value"
+	(text_box "ToDos:\n- 3V3 voltage generation for Bias, INA745x and dig. potentiometers\n- 1V rail for generation lower output voltages than 1V\n- calculate resistor dividers\n- give all components a value\n- snubber-circuit (primary side)"
 		(exclude_from_sim no)
 		(at 38.1 165.1 0)
 		(size 63.5 25.4)
