@@ -7675,6 +7675,16 @@
 		)
 		(uuid "74524500-ba5b-4989-9f4b-41b107cbedd8")
 	)
+	(text "wire with ENABLE_OUTPUT"
+		(exclude_from_sim no)
+		(at 244.094 212.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7a3909f0-d07a-4b83-854b-677a28b019c3")
+	)
 	(text "connect left or right to the relay?"
 		(exclude_from_sim no)
 		(at 567.436 165.862 0)
@@ -8911,10 +8921,6 @@
 		(uuid "19b1a25c-a001-4320-811c-09aa9b93564b")
 	)
 	(no_connect
-		(at 172.72 209.55)
-		(uuid "8d360f0f-f30f-403e-a735-b2855338427d")
-	)
-	(no_connect
 		(at 179.07 115.57)
 		(uuid "d040e781-9c1f-44b8-a5a0-5a8017edaf71")
 	)
@@ -9471,6 +9477,16 @@
 			(type default)
 		)
 		(uuid "16342645-0a72-4e8f-8bba-f78dabea329c")
+	)
+	(wire
+		(pts
+			(xy 67.31 209.55) (xy 172.72 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1668c3f0-68fa-4b80-8242-0282f86de83d")
 	)
 	(wire
 		(pts
@@ -11161,6 +11177,16 @@
 			(type default)
 		)
 		(uuid "586cac6c-75dd-47e5-ad3f-b9e1c223828e")
+	)
+	(wire
+		(pts
+			(xy 203.2 209.55) (xy 254 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "592c52f4-3937-4d35-acd5-f007a2be29dd")
 	)
 	(wire
 		(pts
@@ -15143,6 +15169,131 @@
 		(uuid "ffbedffd-6572-422a-8b2c-a03e28a70380")
 	)
 	(table
+		(column_count 2)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 19.05 19.05)
+		(row_heights 2.54 2.54 2.54)
+		(cells
+			(table_cell "RESET"
+				(exclude_from_sim no)
+				(at 541.02 123.19 0)
+				(size 19.05 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "fa1469c5-ef9f-4975-a269-de818bce129b")
+			)
+			(table_cell "MODE"
+				(exclude_from_sim no)
+				(at 560.07 123.19 0)
+				(size 19.05 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "7e75bf29-2a37-49ab-bccb-dd8d3e9a8794")
+			)
+			(table_cell "Low"
+				(exclude_from_sim no)
+				(at 541.02 125.73 0)
+				(size 19.05 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "49007e5c-b591-4cdb-985f-e1913ba6c679")
+			)
+			(table_cell "Transparent"
+				(exclude_from_sim no)
+				(at 560.07 125.73 0)
+				(size 19.05 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "0d9dbef9-a77d-4cd7-996e-bbc6bc622682")
+			)
+			(table_cell "High"
+				(exclude_from_sim no)
+				(at 541.02 128.27 0)
+				(size 19.05 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "4fe5d727-d861-4274-9c5c-2f60fe17124b")
+			)
+			(table_cell "Latch"
+				(exclude_from_sim no)
+				(at 560.07 128.27 0)
+				(size 19.05 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "176334da-57cf-43b9-8d8f-989bf493a4ed")
+			)
+		)
+	)
+	(table
 		(column_count 4)
 		(border
 			(external yes)
@@ -15777,132 +15928,7 @@
 			)
 		)
 	)
-	(table
-		(column_count 2)
-		(border
-			(external yes)
-			(header yes)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-		)
-		(separators
-			(rows yes)
-			(cols yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(column_widths 19.05 19.05)
-		(row_heights 2.54 2.54 2.54)
-		(cells
-			(table_cell "RESET"
-				(exclude_from_sim no)
-				(at 541.02 123.19 0)
-				(size 19.05 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "fa1469c5-ef9f-4975-a269-de818bce129b")
-			)
-			(table_cell "MODE"
-				(exclude_from_sim no)
-				(at 560.07 123.19 0)
-				(size 19.05 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "7e75bf29-2a37-49ab-bccb-dd8d3e9a8794")
-			)
-			(table_cell "Low"
-				(exclude_from_sim no)
-				(at 541.02 125.73 0)
-				(size 19.05 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "49007e5c-b591-4cdb-985f-e1913ba6c679")
-			)
-			(table_cell "Transparent"
-				(exclude_from_sim no)
-				(at 560.07 125.73 0)
-				(size 19.05 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "0d9dbef9-a77d-4cd7-996e-bbc6bc622682")
-			)
-			(table_cell "High"
-				(exclude_from_sim no)
-				(at 541.02 128.27 0)
-				(size 19.05 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "4fe5d727-d861-4274-9c5c-2f60fe17124b")
-			)
-			(table_cell "Latch"
-				(exclude_from_sim no)
-				(at 560.07 128.27 0)
-				(size 19.05 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "176334da-57cf-43b9-8d8f-989bf493a4ed")
-			)
-		)
-	)
-	(label "UC_SPI_MOSI"
+	(label "STM32_SPI_MOSI"
 		(at 262.89 345.44 0)
 		(effects
 			(font
@@ -15952,7 +15978,7 @@
 		)
 		(uuid "32d2d476-8e2f-4ae5-83a7-151397ca8e0a")
 	)
-	(label "UC_SPI_MISO"
+	(label "STM32_SPI_MISO"
 		(at 262.89 342.9 0)
 		(effects
 			(font
@@ -15962,7 +15988,7 @@
 		)
 		(uuid "3fd9a9b2-04df-4e8f-b7c9-f1848b04cfa0")
 	)
-	(label "UC_SPI_SCK"
+	(label "STM32_SPI_SCK"
 		(at 262.89 340.36 0)
 		(effects
 			(font
@@ -16022,16 +16048,6 @@
 		)
 		(uuid "82ffc71f-cbe3-41ea-975f-15c2583b1bc0")
 	)
-	(label "ADC_SPI_NSS"
-		(at 262.89 337.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8babc438-dba6-465b-b052-42a1a8def85f")
-	)
 	(label "ENABLE_OUTPUT"
 		(at 450.85 111.76 0)
 		(effects
@@ -16082,6 +16098,16 @@
 		)
 		(uuid "ad448770-e120-4256-941e-c3c466d67bbc")
 	)
+	(label "DAC_SPI_NSS"
+		(at 262.89 337.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aef2b804-10fa-4b97-a9cb-4a4f4d6b175e")
+	)
 	(label "ADC0"
 		(at 262.89 327.66 0)
 		(effects
@@ -16122,16 +16148,6 @@
 		)
 		(uuid "ba0e31eb-ef6e-4138-9908-c507090fcc74")
 	)
-	(label "DAC_SPI_NSS"
-		(at 262.89 335.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c36cea2d-8a97-4cf7-a477-c4a7e30e7470")
-	)
 	(label "SWCLK{slash}BOOT0"
 		(at 262.89 363.22 0)
 		(effects
@@ -16151,6 +16167,16 @@
 			(justify left bottom)
 		)
 		(uuid "da2ef2d0-c6a3-4811-8f81-215446ce4901")
+	)
+	(label "ADC_SPI_NSS"
+		(at 262.89 335.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd488ec5-dc1b-4ddb-973a-38d154b7b6b2")
 	)
 	(label "STM32_NRST"
 		(at 208.28 250.19 0)
@@ -16289,6 +16315,28 @@
 		(uuid "8f48ddaf-9be9-4512-b784-128cb085d4b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 59.5472 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ON{slash}~{OFF}"
+		(shape input)
+		(at 67.31 209.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "908a60c7-ddbd-4584-9548-a8aeb659b744")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.8256 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
