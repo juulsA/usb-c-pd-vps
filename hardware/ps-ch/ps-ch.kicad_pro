@@ -431,6 +431,10 @@
     [
       "8b075681-8e5e-4240-bfaa-b14997f80de9",
       "Switch"
+    ],
+    [
+      "1f7ea9ad-3415-483e-b24e-c0c99cf7b875",
+      "Voltage Regulation"
     ]
   ],
   "text_variables": {}
