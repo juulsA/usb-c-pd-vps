@@ -411,6 +411,26 @@
     [
       "431acd2e-2ab9-4aa9-b759-273f044decc5",
       "Root"
+    ],
+    [
+      "79bfec37-4be8-467d-8a71-2d98a0d66623",
+      "Flyback Converter"
+    ],
+    [
+      "2d82f172-f8c7-4db1-beb9-4320019db4fa",
+      "STM32"
+    ],
+    [
+      "102c0564-cdac-4adc-aea7-12628d924237",
+      "DAC"
+    ],
+    [
+      "c67e88b1-f689-4201-bfe2-5853de22cc3f",
+      "ADC"
+    ],
+    [
+      "8b075681-8e5e-4240-bfaa-b14997f80de9",
+      "Switch"
     ]
   ],
   "text_variables": {}
