@@ -3301,6 +3301,18 @@
 		)
 		(uuid "8cddebc0-8ec9-433d-90eb-6b272fd69f4c")
 	)
+	(text "FLYBACK CONVERTER"
+		(exclude_from_sim no)
+		(at 206.248 49.784 0)
+		(effects
+			(font
+				(size 6.35 6.35)
+				(thickness 1.27)
+				(bold yes)
+			)
+		)
+		(uuid "978b5117-6f1e-4fdb-910f-d614446bfbec")
+	)
 	(junction
 		(at 143.51 146.05)
 		(diameter 0)

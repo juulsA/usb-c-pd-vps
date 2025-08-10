@@ -1891,6 +1891,18 @@
 		)
 		(uuid "7192a169-4826-468a-9e28-d6a998ce0f99")
 	)
+	(text "STM32"
+		(exclude_from_sim no)
+		(at 143.256 31.75 0)
+		(effects
+			(font
+				(size 6.35 6.35)
+				(thickness 1.27)
+				(bold yes)
+			)
+		)
+		(uuid "7b6900e8-72fa-4ecf-9252-8acfc6af337d")
+	)
 	(text "- STM32 is programmed via USART1 (PA9/PA10)\n- the bootloader is activated by applying pattern 11\n	-> BOOT_LOCK(bit) = 0, nBOOT1(bit) = 1, BOOT0(pin) = 1, nBOOT0_SEL(bit) = 0"
 		(exclude_from_sim no)
 		(at 69.342 169.164 0)

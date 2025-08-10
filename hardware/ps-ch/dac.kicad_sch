@@ -909,6 +909,18 @@
 		)
 		(uuid "46561ab2-5787-4bc9-b54f-966ba866f5a0")
 	)
+	(text "DAC"
+		(exclude_from_sim no)
+		(at 147.32 40.64 0)
+		(effects
+			(font
+				(size 6.35 6.35)
+				(thickness 1.27)
+				(bold yes)
+			)
+		)
+		(uuid "be0b70b6-ff83-4837-8bfb-76a1beef71e7")
+	)
 	(text "0..2.5V"
 		(exclude_from_sim no)
 		(at 161.798 76.2 0)

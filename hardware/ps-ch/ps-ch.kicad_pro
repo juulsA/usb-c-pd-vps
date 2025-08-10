@@ -434,7 +434,11 @@
     ],
     [
       "1f7ea9ad-3415-483e-b24e-c0c99cf7b875",
-      "Voltage Regulation"
+      "Voltage Correction"
+    ],
+    [
+      "d894c1fd-b786-4989-9577-d72811ca5dd8",
+      "Current Measurement"
     ]
   ],
   "text_variables": {}
