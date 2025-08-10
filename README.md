@@ -32,9 +32,9 @@
 | 12 | PA5 | STM32_SPI_SCK | spi clock |
 | 13 | PA6 | STM32_SPI_MISO | master input/slave output |
 | 14 | PA7 | STM32_SPI_MOSI | master output/slave input |
-| 15 | PB0 | VSEL_0 | flyback regulator output voltage setting bit 0 |
-| 16 | PB1 | VSEl_1 | flyback regulator output voltage setting bit 1 |
-| 17 | PB2 | VSEL_2 | flyback regulator output voltage setting bit 2 |
+| 15 | PB0 | - | -|
+| 16 | PB1 | - | -|
+| 17 | PB2 | - | - |
 | 18 | PA8 | - | - |
 | 19 | PA9 | STM32_UART_TX | uart for controlling/programming |
 | 20 | PC6 | - | - |
@@ -43,7 +43,7 @@
 | 23 | PA12 | - | - |
 | 24 | PA13 | SWDIO | - |
 | 25 | PA14 | SWCLK/BOOT0 | enable stm bootloader |
-| 26 | PA15 | - | - |
+| 26 | PA15 | STM32_TIM1_CH1_PWM | setting preregulator voltage |
 | 27 | PB3 | DISABLE_VOLTAGE_SENSING | the external sense pins are not considered in output voltage adjustment  |
 | 28 | PB4 | FUSE/#CURRENT_LIMITING_MODE | output is disabled, if an overcurrent event occurs or current is limited by reducing output voltage |
 | 29 | PB5 | FPWM/#PFM | fixed frequency or phase frequency mode |
