@@ -1985,10 +1985,6 @@
 		(uuid "0b0a11bb-6ed8-4661-b43a-12f8087de4c7")
 	)
 	(no_connect
-		(at 133.35 86.36)
-		(uuid "2dfdf3f7-5883-4311-83f5-c1b9cc850a75")
-	)
-	(no_connect
 		(at 153.67 86.36)
 		(uuid "4dd771b2-55c1-4a68-ba7c-ed5023ec9d8f")
 	)
@@ -2007,10 +2003,6 @@
 	(no_connect
 		(at 133.35 71.12)
 		(uuid "8f7eae92-3247-4490-8bd5-8b65de36b7c4")
-	)
-	(no_connect
-		(at 133.35 104.14)
-		(uuid "a1b5cee2-24ce-47a5-9aab-0feb87750256")
 	)
 	(no_connect
 		(at 153.67 71.12)
@@ -2059,6 +2051,16 @@
 			(type default)
 		)
 		(uuid "071d4c6c-1ccc-4b17-ae03-96d7d0ed92a7")
+	)
+	(wire
+		(pts
+			(xy 115.57 104.14) (xy 133.35 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "084ab503-a24e-4b10-b97e-e92a968a541d")
 	)
 	(wire
 		(pts
@@ -2690,6 +2692,16 @@
 		)
 		(uuid "ef0457b1-6483-4a9a-beb5-440f1150d69a")
 	)
+	(wire
+		(pts
+			(xy 115.57 86.36) (xy 133.35 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f284337c-3d1f-464d-990c-c6e630e109b6")
+	)
 	(label "NRST"
 		(at 26.67 39.37 0)
 		(effects
@@ -2770,6 +2782,17 @@
 			(justify right)
 		)
 		(uuid "049a35f2-6438-4012-82bf-337c63c33075")
+	)
+	(hierarchical_label "DISCHARGE_OUTPUT"
+		(shape output)
+		(at 115.57 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "18f78630-fee6-4e81-b69a-b73db7b0087f")
 	)
 	(hierarchical_label "STM32_SPI_MISO"
 		(shape input)
@@ -2924,6 +2947,17 @@
 			(justify left)
 		)
 		(uuid "bc5e2314-1f2c-4be2-984d-a2cf9cede0f6")
+	)
+	(hierarchical_label "~{OCP}"
+		(shape input)
+		(at 115.57 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "da8c5eab-489e-444a-a7ac-c7c374dfb3e8")
 	)
 	(hierarchical_label "STM32_SPI_MOSI"
 		(shape output)

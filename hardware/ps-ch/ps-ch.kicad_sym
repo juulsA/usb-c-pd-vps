@@ -2090,7 +2090,7 @@
 			)
 		)
 		(property "Value" "LM74502H"
-			(at 0 -28.194 0)
+			(at 0 -33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2128,7 +2128,7 @@
 		(symbol "LM74502H_1_1"
 			(rectangle
 				(start 0 0)
-				(end 17.78 -27.94)
+				(end 17.78 -33.02)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2174,7 +2174,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -22.86 0)
+				(at -2.54 -27.94 0)
 				(length 2.54)
 				(name "EN/UVLO"
 					(effects
@@ -2228,7 +2228,7 @@
 				)
 			)
 			(pin input line
-				(at 20.32 -12.7 180)
+				(at 20.32 -17.78 180)
 				(length 2.54)
 				(name "OV"
 					(effects
@@ -2246,7 +2246,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 20.32 -20.32 180)
+				(at 20.32 -25.4 180)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -2264,7 +2264,7 @@
 				)
 			)
 			(pin power_in line
-				(at 20.32 -22.86 180)
+				(at 20.32 -27.94 180)
 				(length 2.54)
 				(name "GND"
 					(effects
