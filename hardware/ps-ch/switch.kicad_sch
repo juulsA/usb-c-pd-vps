@@ -817,6 +817,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VDC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VDC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ps-ch:LM74502H"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1376,6 +1501,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "VS of the LM74502H is connected to VDC, which is at least 5V.\nIn case of low output voltages or during ramp up the voltage at the VS pin can be zero\nand the device is not operating\n"
+		(exclude_from_sim no)
+		(at 191.008 48.006 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "10472aa1-f507-4d39-a738-9076c27b717b")
+	)
 	(text "\"ON/OFF\" SWITCH"
 		(exclude_from_sim no)
 		(at 137.16 43.18 0)
@@ -1435,12 +1571,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90897c34-06c6-4b37-9b37-e90dbfc7080b")
-	)
-	(junction
-		(at 160.02 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92d9fc74-5e3e-4979-ae52-8c77c9e17296")
 	)
 	(junction
 		(at 149.86 71.12)
@@ -1598,16 +1728,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 71.12) (xy 160.02 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16a72a29-2515-4025-a233-5d08c407d8e0")
-	)
-	(wire
-		(pts
 			(xy 93.98 114.3) (xy 96.52 114.3)
 		)
 		(stroke
@@ -1618,16 +1738,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 71.12) (xy 160.02 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ef851a6-fb73-4943-a0b8-e016c15370a3")
-	)
-	(wire
-		(pts
 			(xy 68.58 119.38) (xy 76.2 119.38)
 		)
 		(stroke
@@ -1635,6 +1745,16 @@
 			(type default)
 		)
 		(uuid "2084909b-cba1-4af9-9e36-672cccf97785")
+	)
+	(polyline
+		(pts
+			(xy 162.56 63.5) (xy 190.5 50.8)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(uuid "2259396d-74df-4d7b-8906-b4a6b9e44a0e")
 	)
 	(wire
 		(pts
@@ -1685,6 +1805,16 @@
 			(type default)
 		)
 		(uuid "33702bb7-4eca-4b17-bc6e-9ae556240d5b")
+	)
+	(wire
+		(pts
+			(xy 160.02 68.58) (xy 160.02 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3536eb48-5efd-4671-ab6b-7dc3420f52fb")
 	)
 	(wire
 		(pts
@@ -1808,7 +1938,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 71.12) (xy 180.34 71.12)
+			(xy 149.86 71.12) (xy 180.34 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3346,6 +3476,72 @@
 			(project "ps-ch"
 				(path "/431acd2e-2ab9-4aa9-b759-273f044decc5/8b075681-8e5e-4240-bfaa-b14997f80de9"
 					(reference "C78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDC")
+		(at 160.02 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2018bf60-7c24-4e68-8441-63779d2bf4af")
+		(property "Reference" "#PWR0138"
+			(at 160.02 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDC"
+			(at 160.02 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 160.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cf480b4-eecf-4056-a3af-51ca4ca20aae")
+		)
+		(instances
+			(project "ps-ch"
+				(path "/431acd2e-2ab9-4aa9-b759-273f044decc5/8b075681-8e5e-4240-bfaa-b14997f80de9"
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
