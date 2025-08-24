@@ -759,6 +759,27 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "500R"
+		(exclude_from_sim no)
+		(at 210.312 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "166d6512-6d56-44a7-845c-73d856563a59")
+	)
+	(text "see datasheet p. 7 for input impedance\ndependent on input range between 5Meg-15Meg\n--> no driving source is needed, resistor divider is sufficient"
+		(exclude_from_sim no)
+		(at 143.51 73.406 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "52233029-8916-48ee-936f-ac1868c90747")
+	)
 	(text "ADC"
 		(exclude_from_sim no)
 		(at 139.954 46.736 0)
@@ -770,6 +791,16 @@
 			)
 		)
 		(uuid "5c6eac04-db93-44f4-b3ef-1c496762ebfd")
+	)
+	(text "4.7n"
+		(exclude_from_sim no)
+		(at 148.844 106.934 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a4fa5e59-7c83-4f1e-8497-fc396ee0f59d")
 	)
 	(junction
 		(at 127 121.92)
