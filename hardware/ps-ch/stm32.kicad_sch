@@ -625,130 +625,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MCU_ST_STM32C0:STM32C031K4Tx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1856,6 +1732,712 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ps-ch:0.1μF 0603 100Vdc X7R ±20%"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0.1μF 0603 100Vdc X7R ±20%"
+				(at 0 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor 0603 100Vdc X7R ±20%"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Murata"
+				(at 0 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "GRM188R72A104MA35"
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DisplayValue0" "0.1μF ±20%"
+				(at 3.048 1.27 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(justify left)
+				)
+			)
+			(property "DisplayValue1" "0603 100Vdc"
+				(at 3.048 0 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(justify left)
+				)
+			)
+			(property "DisplayValue2" "X7R"
+				(at 3.048 -1.27 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "C cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0.1μF 0603 100Vdc X7R ±20%_0_1"
+				(polyline
+					(pts
+						(xy 2.032 0.762) (xy -2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -0.762) (xy -2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0.1μF 0603 100Vdc X7R ±20%_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ps-ch:10kΩ 0603 0.1W ±1% ±100ppm/°C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10kΩ 0603 0.1W ±1% ±100ppm/°C"
+				(at 0 14.224 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at 0 12.954 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "R 0603 0.1W ±1% ±100ppm/°C"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Yageo"
+				(at 0 15.494 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "AC0603FR-071K2L"
+				(at 0 16.764 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "DisplayValue0" "10kΩ ±1%"
+				(at 2.032 1.524 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(justify left)
+				)
+			)
+			(property "DisplayValue1" "0603 0.1W"
+				(at 2.032 0 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(justify left)
+				)
+			)
+			(property "DisplayValue2" "±100ppm"
+				(at 2.032 -1.27 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "10kΩ 0603 0.1W ±1% ±100ppm/°C_0_1"
+				(rectangle
+					(start -1.016 2.5146)
+					(end 1.016 -2.5654)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "10kΩ 0603 0.1W ±1% ±100ppm/°C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ps-ch:10μF 0805 50Vdc X5R ±20%"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10μF 0805 50Vdc X5R ±20%"
+				(at 0 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor 0805 50Vdc X5R ±20%"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Murata"
+				(at 0 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "GRM21BR61H106ME43"
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DisplayValue0" "10μF ±20%"
+				(at 3.048 1.27 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(justify left)
+				)
+			)
+			(property "DisplayValue1" "0805 50Vdc"
+				(at 3.048 0 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(justify left)
+				)
+			)
+			(property "DisplayValue2" "X5R"
+				(at 3.048 -1.27 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "C cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "10μF 0805 50Vdc X5R ±20%_0_1"
+				(polyline
+					(pts
+						(xy 2.032 0.762) (xy -2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -0.762) (xy -2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "10μF 0805 50Vdc X5R ±20%_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ps-ch:22Ω 0402 0.063W ±1% ±100ppm/°C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "22Ω 0402 0.063W ±1% ±100ppm/°C"
+				(at 0 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "R 0402 0.063W ±1% ±100ppm/°C"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Yageo"
+				(at 0 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "AC0402FR-0722RL"
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DisplayValue0" "22Ω ±1%"
+				(at 2.032 1.27 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(justify left)
+				)
+			)
+			(property "DisplayValue1" "0402 0.063W"
+				(at 2.032 0 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(justify left)
+				)
+			)
+			(property "DisplayValue2" "±100ppm"
+				(at 2.032 -1.27 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "22Ω 0402 0.063W ±1% ±100ppm/°C_0_1"
+				(rectangle
+					(start -1.016 2.5146)
+					(end 1.016 -2.5654)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "22Ω 0402 0.063W ±1% ±100ppm/°C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 17.78 17.78)
@@ -1951,7 +2533,7 @@
 		(uuid "a82e921e-9e1a-4427-a0fe-b57c2ae8e048")
 	)
 	(junction
-		(at 163.83 73.66)
+		(at 168.91 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be3ea592-1d15-4311-9463-6e0f07f53d0f")
@@ -1969,7 +2551,7 @@
 		(uuid "cf7b2230-9d73-417c-9fe1-dd26982c2a82")
 	)
 	(junction
-		(at 173.99 76.2)
+		(at 179.07 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb739302-2159-4ad9-8a33-09ecba902391")
@@ -2024,23 +2606,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 91.44) (xy 179.07 91.44)
+			(xy 153.67 104.14) (xy 163.83 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "056a7522-3565-4bc1-a9b2-eeddc79d84ac")
-	)
-	(wire
-		(pts
-			(xy 153.67 104.14) (xy 158.75 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0714ae95-5f0a-426d-9216-cad50c841821")
+		(uuid "0672afdb-8704-4f7a-b750-ca8e28d94d33")
 	)
 	(wire
 		(pts
@@ -2064,13 +2636,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 88.9) (xy 158.75 88.9)
+			(xy 153.67 78.74) (xy 163.83 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0bc8ec5e-56b8-43fc-b7c0-7d59c2afd26e")
+		(uuid "0c38fe11-aa86-47f0-900d-f8dca16b44c9")
 	)
 	(wire
 		(pts
@@ -2094,7 +2666,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 63.5) (xy 173.99 76.2)
+			(xy 179.07 63.5) (xy 179.07 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2121,6 +2693,16 @@
 			(type default)
 		)
 		(uuid "1e60f6d2-01aa-4fed-849a-5b6ba5f32af5")
+	)
+	(wire
+		(pts
+			(xy 156.21 101.6) (xy 184.15 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2134d3df-ac0b-4226-a53e-77b29523d60b")
 	)
 	(wire
 		(pts
@@ -2164,7 +2746,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 76.2) (xy 173.99 76.2)
+			(xy 184.15 76.2) (xy 179.07 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2174,7 +2756,17 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 73.66) (xy 179.07 73.66)
+			(xy 153.67 83.82) (xy 163.83 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38000370-3ea8-4dc7-8e46-c816058b515e")
+	)
+	(wire
+		(pts
+			(xy 168.91 73.66) (xy 184.15 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2191,16 +2783,6 @@
 			(type default)
 		)
 		(uuid "3c76f21b-b9c5-40ff-95fd-5e62f8084a3f")
-	)
-	(wire
-		(pts
-			(xy 153.67 78.74) (xy 158.75 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "417dfffe-c379-41a4-87da-c602341b01d7")
 	)
 	(wire
 		(pts
@@ -2234,6 +2816,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 88.9) (xy 163.83 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c1b781c-ccad-4f6e-acbe-63746fe61a28")
+	)
+	(wire
+		(pts
 			(xy 130.81 55.88) (xy 133.35 55.88)
 		)
 		(stroke
@@ -2244,13 +2836,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 81.28) (xy 179.07 81.28)
+			(xy 153.67 91.44) (xy 184.15 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4dc781a6-5ef0-4c08-a178-4a64e256286d")
+		(uuid "4f07c112-7d4d-4096-b10d-df62fa12afe1")
 	)
 	(wire
 		(pts
@@ -2284,16 +2876,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 66.04) (xy 179.07 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5479ad4e-16d0-495c-a7f1-43488c0debdb")
-	)
-	(wire
-		(pts
 			(xy 52.07 41.91) (xy 54.61 41.91)
 		)
 		(stroke
@@ -2304,6 +2886,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 99.06) (xy 187.96 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "577a0e03-c777-4781-be19-c66c1a551cba")
+	)
+	(wire
+		(pts
 			(xy 52.07 39.37) (xy 69.85 39.37)
 		)
 		(stroke
@@ -2311,16 +2903,6 @@
 			(type default)
 		)
 		(uuid "59d9e753-67ac-4b0e-9a1d-ff70e6c351dc")
-	)
-	(wire
-		(pts
-			(xy 156.21 101.6) (xy 179.07 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59e04ca5-6d3e-4d80-a52f-40c296a76250")
 	)
 	(wire
 		(pts
@@ -2344,7 +2926,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 88.9) (xy 179.07 88.9)
+			(xy 171.45 88.9) (xy 184.15 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2354,7 +2936,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 104.14) (xy 179.07 104.14)
+			(xy 171.45 104.14) (xy 184.15 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2364,13 +2946,23 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 83.82) (xy 179.07 83.82)
+			(xy 171.45 83.82) (xy 184.15 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "699a8e0a-8495-4ac5-a4ce-43ee5be7c02a")
+	)
+	(wire
+		(pts
+			(xy 153.67 81.28) (xy 184.15 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cbb67b0-13ef-48c5-b97b-500544f3c42d")
 	)
 	(wire
 		(pts
@@ -2434,26 +3026,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 83.82) (xy 158.75 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "905b01b8-c246-455f-bf57-d5a141b495b5")
-	)
-	(wire
-		(pts
-			(xy 153.67 76.2) (xy 173.99 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90a78d8e-af3c-4a11-b20b-33a03ba8cb81")
-	)
-	(wire
-		(pts
 			(xy 115.57 93.98) (xy 133.35 93.98)
 		)
 		(stroke
@@ -2481,26 +3053,6 @@
 			(type default)
 		)
 		(uuid "9f70c1b0-2e72-4b57-b23b-58906474d809")
-	)
-	(wire
-		(pts
-			(xy 153.67 73.66) (xy 163.83 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a35946da-f851-47dd-b1fd-ba98115e2328")
-	)
-	(wire
-		(pts
-			(xy 153.67 99.06) (xy 182.88 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a36e922d-f1e2-4506-bef6-9720c04a06c1")
 	)
 	(wire
 		(pts
@@ -2574,6 +3126,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 66.04) (xy 184.15 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf0b1a94-1998-4ab8-8e9d-1c7b6e0efdf4")
+	)
+	(wire
+		(pts
 			(xy 148.59 135.89) (xy 148.59 138.43)
 		)
 		(stroke
@@ -2614,7 +3176,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 78.74) (xy 179.07 78.74)
+			(xy 171.45 78.74) (xy 184.15 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2634,7 +3196,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 53.34) (xy 163.83 55.88)
+			(xy 168.91 53.34) (xy 168.91 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2654,7 +3216,17 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 63.5) (xy 163.83 73.66)
+			(xy 153.67 76.2) (xy 179.07 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3cdf572-5faa-4161-a2a6-2bca69d7db4c")
+	)
+	(wire
+		(pts
+			(xy 168.91 63.5) (xy 168.91 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2684,13 +3256,23 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 53.34) (xy 173.99 55.88)
+			(xy 179.07 53.34) (xy 179.07 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ef0457b1-6483-4a9a-beb5-440f1150d69a")
+	)
+	(wire
+		(pts
+			(xy 153.67 73.66) (xy 168.91 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1effb00-7ed9-411e-b01a-ddbeb7db274f")
 	)
 	(wire
 		(pts
@@ -2713,7 +3295,7 @@
 		(uuid "0c41358a-6d26-43ea-af94-e72a9cb0376a")
 	)
 	(label "SWCLK{slash}BOOT0"
-		(at 165.1 101.6 0)
+		(at 170.18 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2763,7 +3345,7 @@
 		(uuid "be73a75f-46f5-411a-8543-bd0626e68b2f")
 	)
 	(label "SWDIO"
-		(at 165.1 99.06 0)
+		(at 170.18 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2796,7 +3378,7 @@
 	)
 	(hierarchical_label "STM32_SPI_MISO"
 		(shape input)
-		(at 179.07 81.28 0)
+		(at 184.15 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2807,7 +3389,7 @@
 	)
 	(hierarchical_label "DAC_SPI_NSS"
 		(shape output)
-		(at 179.07 76.2 0)
+		(at 184.15 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2829,7 +3411,7 @@
 	)
 	(hierarchical_label "STM32_SPI_SCK"
 		(shape output)
-		(at 179.07 78.74 0)
+		(at 184.15 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2851,7 +3433,7 @@
 	)
 	(hierarchical_label "STM32_UART_TX"
 		(shape output)
-		(at 179.07 88.9 0)
+		(at 184.15 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2862,7 +3444,7 @@
 	)
 	(hierarchical_label "STM32_TIM1_CH1_PWM"
 		(shape output)
-		(at 179.07 104.14 0)
+		(at 184.15 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2873,7 +3455,7 @@
 	)
 	(hierarchical_label "ADC0"
 		(shape input)
-		(at 179.07 66.04 0)
+		(at 184.15 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2906,7 +3488,7 @@
 	)
 	(hierarchical_label "ADC_SPI_NSS"
 		(shape output)
-		(at 179.07 73.66 0)
+		(at 184.15 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2928,7 +3510,7 @@
 	)
 	(hierarchical_label "ACTIVATE_BOOTLOADER"
 		(shape input)
-		(at 179.07 101.6 0)
+		(at 184.15 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2939,7 +3521,7 @@
 	)
 	(hierarchical_label "STM32_UART_RX"
 		(shape input)
-		(at 179.07 91.44 0)
+		(at 184.15 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2961,7 +3543,7 @@
 	)
 	(hierarchical_label "STM32_SPI_MOSI"
 		(shape output)
-		(at 179.07 83.82 0)
+		(at 184.15 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3048,7 +3630,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "ps-ch:10kΩ 0603 0.1W ±1% ±100ppm/°C")
 		(at 156.21 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3058,7 +3640,7 @@
 		(fields_autoplaced yes)
 		(uuid "0dec0663-c738-4f12-8191-8dd884c5da54")
 		(property "Reference" "R35"
-			(at 158.75 109.2199 0)
+			(at 158.75 108.6103 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3066,26 +3648,35 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 158.75 111.7599 0)
+		(property "Value" "10kΩ 0603 0.1W ±1% ±100ppm/°C"
+			(at 156.21 96.266 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 154.432 110.49 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 156.21 97.536 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 110.49 0)
+			(at 156.21 110.49 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "R 0603 0.1W ±1% ±100ppm/°C"
+			(at 156.21 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3093,13 +3684,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 156.21 110.49 0)
+		(property "Manufacturer" "Yageo"
+			(at 156.21 94.996 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-071K2L"
+			(at 156.21 93.726 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "DisplayValue0" "10kΩ ±1%"
+			(at 158.75 110.5154 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "DisplayValue1" "0603 0.1W"
+			(at 158.75 111.7854 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "DisplayValue2" "±100ppm"
+			(at 158.75 113.0554 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -3250,7 +3877,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 173.99 53.34 0)
+		(at 179.07 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3259,7 +3886,7 @@
 		(fields_autoplaced yes)
 		(uuid "39984602-324b-418b-9eb9-b3361e43f82f")
 		(property "Reference" "#PWR099"
-			(at 173.99 57.15 0)
+			(at 179.07 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3268,7 +3895,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 173.99 48.26 0)
+			(at 179.07 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3276,7 +3903,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3285,7 +3912,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3294,7 +3921,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 173.99 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3315,33 +3942,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 162.56 78.74 270)
+		(lib_id "ps-ch:22Ω 0402 0.063W ±1% ±100ppm/°C")
+		(at 167.64 78.74 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3c3ba873-1c84-4e46-a1b4-75f0502d907b")
 		(property "Reference" "R36"
-			(at 162.56 72.39 90)
+			(at 162.56 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 162.56 74.93 90)
+		(property "Value" "22Ω 0402 0.063W ±1% ±100ppm/°C"
+			(at 182.88 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 162.56 76.962 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 177.8 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3350,7 +3977,16 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 78.74 0)
+			(at 167.64 78.74 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "R 0402 0.063W ±1% ±100ppm/°C"
+			(at 180.34 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3358,11 +3994,45 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 162.56 78.74 0)
+		(property "Manufacturer" "Yageo"
+			(at 187.96 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0402FR-0722RL"
+			(at 185.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DisplayValue0" "22Ω ±1%"
+			(at 173.99 77.47 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "DisplayValue1" "0402 0.063W"
+			(at 175.26 80.01 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "DisplayValue2" "±100ppm"
+			(at 161.29 80.01 90)
+			(effects
+				(font
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -3449,8 +4119,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 173.99 59.69 180)
+		(lib_id "ps-ch:10kΩ 0603 0.1W ±1% ±100ppm/°C")
+		(at 179.07 59.69 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3459,7 +4129,7 @@
 		(fields_autoplaced yes)
 		(uuid "779c72ad-1eb9-4c51-a004-5cac3aad4065")
 		(property "Reference" "R55"
-			(at 176.53 58.4199 0)
+			(at 181.61 57.7595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3467,26 +4137,35 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
-			(at 176.53 60.9599 0)
+		(property "Value" "10kΩ 0603 0.1W ±1% ±100ppm/°C"
+			(at 179.07 73.914 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
-				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 175.768 59.69 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 179.07 72.644 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 59.69 0)
+			(at 179.07 59.69 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "R 0603 0.1W ±1% ±100ppm/°C"
+			(at 179.07 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3494,13 +4173,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 173.99 59.69 0)
+		(property "Manufacturer" "Yageo"
+			(at 179.07 75.184 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-071K2L"
+			(at 179.07 76.454 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "DisplayValue0" "10kΩ ±1%"
+			(at 181.61 59.6646 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "DisplayValue1" "0603 0.1W"
+			(at 181.61 60.9346 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "DisplayValue2" "±100ppm"
+			(at 181.61 62.2046 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
 			)
 		)
 		(pin "1"
@@ -3585,33 +4300,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 162.56 88.9 270)
+		(lib_id "ps-ch:22Ω 0402 0.063W ±1% ±100ppm/°C")
+		(at 167.64 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9a47aca6-4321-4224-a6cd-aa2c07a1b00a")
 		(property "Reference" "R49"
-			(at 162.56 82.55 90)
+			(at 162.56 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 162.56 85.09 90)
+		(property "Value" "22Ω 0402 0.063W ±1% ±100ppm/°C"
+			(at 182.88 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 162.56 87.122 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 177.8 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3620,7 +4335,16 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 88.9 0)
+			(at 167.64 88.9 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "R 0402 0.063W ±1% ±100ppm/°C"
+			(at 180.34 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3628,11 +4352,45 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 162.56 88.9 0)
+		(property "Manufacturer" "Yageo"
+			(at 187.96 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0402FR-0722RL"
+			(at 185.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DisplayValue0" "22Ω ±1%"
+			(at 173.99 87.63 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "DisplayValue1" "0402 0.063W"
+			(at 175.26 90.17 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "DisplayValue2" "±100ppm"
+			(at 167.6146 86.36 90)
+			(effects
+				(font
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -3654,7 +4412,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 163.83 53.34 0)
+		(at 168.91 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3663,7 +4421,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b199fe1-0b1e-45b9-9a9b-9e4916b1bcee")
 		(property "Reference" "#PWR042"
-			(at 163.83 57.15 0)
+			(at 168.91 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3672,7 +4430,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 163.83 48.26 0)
+			(at 168.91 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3680,7 +4438,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 53.34 0)
+			(at 168.91 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3689,7 +4447,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 53.34 0)
+			(at 168.91 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3698,7 +4456,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 163.83 53.34 0)
+			(at 168.91 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3726,7 +4484,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "aeaf9add-2435-4d94-9fef-d96986911873")
 		(property "Reference" "U12"
 			(at 145.6533 55.88 0)
@@ -3880,8 +4637,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 163.83 59.69 180)
+		(lib_id "ps-ch:10kΩ 0603 0.1W ±1% ±100ppm/°C")
+		(at 168.91 59.69 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3890,7 +4647,7 @@
 		(fields_autoplaced yes)
 		(uuid "b1812c4f-9c4b-4880-b3b4-9cb9bf97ab8a")
 		(property "Reference" "R45"
-			(at 166.37 58.4199 0)
+			(at 171.45 57.7595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3898,26 +4655,35 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
-			(at 166.37 60.9599 0)
+		(property "Value" "10kΩ 0603 0.1W ±1% ±100ppm/°C"
+			(at 168.91 73.914 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
-				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 165.608 59.69 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 168.91 72.644 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 59.69 0)
+			(at 168.91 59.69 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "R 0603 0.1W ±1% ±100ppm/°C"
+			(at 168.91 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3925,13 +4691,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 163.83 59.69 0)
+		(property "Manufacturer" "Yageo"
+			(at 168.91 75.184 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-071K2L"
+			(at 168.91 76.454 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "DisplayValue0" "10kΩ ±1%"
+			(at 171.45 59.6646 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "DisplayValue1" "0603 0.1W"
+			(at 171.45 60.9346 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "DisplayValue2" "±100ppm"
+			(at 171.45 62.2046 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
 			)
 		)
 		(pin "1"
@@ -3950,33 +4752,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 162.56 83.82 270)
+		(lib_id "ps-ch:22Ω 0402 0.063W ±1% ±100ppm/°C")
+		(at 167.64 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b7bdbf5e-6e9a-43e0-a3c8-fab81d0a8fce")
 		(property "Reference" "R38"
-			(at 162.56 77.47 90)
+			(at 162.56 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 162.56 80.01 90)
+		(property "Value" "22Ω 0402 0.063W ±1% ±100ppm/°C"
+			(at 182.88 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 162.56 82.042 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 177.8 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3985,7 +4787,16 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 83.82 0)
+			(at 167.64 83.82 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "R 0402 0.063W ±1% ±100ppm/°C"
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3993,11 +4804,45 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 162.56 83.82 0)
+		(property "Manufacturer" "Yageo"
+			(at 187.96 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0402FR-0722RL"
+			(at 185.42 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DisplayValue0" "22Ω ±1%"
+			(at 173.99 82.55 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "DisplayValue1" "0402 0.063W"
+			(at 175.26 85.09 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "DisplayValue2" "±100ppm"
+			(at 167.6146 81.28 90)
+			(effects
+				(font
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -4148,17 +4993,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "ps-ch:10μF 0805 50Vdc X5R ±20%")
 		(at 138.43 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c5bfb5b6-e4e4-41eb-87bb-7316d2c65e99")
 		(property "Reference" "C54"
-			(at 142.24 140.9699 0)
+			(at 139.7 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4166,17 +5010,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 142.24 143.5099 0)
+		(property "Value" "10μF 0805 50Vdc X5R ±20%"
+			(at 138.43 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 139.3952 146.05 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 138.43 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4185,7 +5029,16 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 142.24 0)
+			(at 138.43 142.24 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor 0805 50Vdc X5R ±20%"
+			(at 138.43 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4193,13 +5046,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 138.43 142.24 0)
+		(property "Manufacturer" "Murata"
+			(at 138.43 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM21BR61H106ME43"
+			(at 138.43 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DisplayValue0" "10μF ±20%"
+			(at 139.7 144.78 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "DisplayValue1" "0805 50Vdc"
+			(at 139.7 146.05 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "DisplayValue2" "X5R"
+			(at 139.7 147.32 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -4218,33 +5107,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 162.56 104.14 270)
+		(lib_id "ps-ch:22Ω 0402 0.063W ±1% ±100ppm/°C")
+		(at 167.64 104.14 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c7f8a682-c9bb-41b9-aeae-18eb2ff87b5b")
 		(property "Reference" "R60"
-			(at 162.56 97.79 90)
+			(at 162.56 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 162.56 100.33 90)
+		(property "Value" "22Ω 0402 0.063W ±1% ±100ppm/°C"
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 162.56 102.362 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 177.8 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4253,7 +5142,16 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 104.14 0)
+			(at 167.64 104.14 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "R 0402 0.063W ±1% ±100ppm/°C"
+			(at 180.34 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4261,11 +5159,45 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 162.56 104.14 0)
+		(property "Manufacturer" "Yageo"
+			(at 187.96 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0402FR-0722RL"
+			(at 185.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DisplayValue0" "22Ω ±1%"
+			(at 173.99 102.87 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "DisplayValue1" "0402 0.063W"
+			(at 175.26 105.41 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "DisplayValue2" "±100ppm"
+			(at 167.6146 101.6 90)
+			(effects
+				(font
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -4620,17 +5552,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "ps-ch:0.1μF 0603 100Vdc X7R ±20%")
 		(at 148.59 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e2c2a6b5-2bc2-4620-83e4-892490247bca")
 		(property "Reference" "C55"
-			(at 152.4 140.9699 0)
+			(at 149.86 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4638,17 +5569,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 152.4 143.5099 0)
+		(property "Value" "0.1μF 0603 100Vdc X7R ±20%"
+			(at 148.59 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 149.5552 146.05 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 148.59 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4657,7 +5588,16 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 142.24 0)
+			(at 148.59 142.24 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor 0603 100Vdc X7R ±20%"
+			(at 148.59 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4665,13 +5605,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 148.59 142.24 0)
+		(property "Manufacturer" "Murata"
+			(at 148.59 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM188R72A104MA35"
+			(at 148.59 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DisplayValue0" "0.1μF ±20%"
+			(at 149.86 144.78 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "DisplayValue1" "0603 100Vdc"
+			(at 149.86 146.05 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "DisplayValue2" "X7R"
+			(at 149.86 147.32 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -4690,7 +5666,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "ps-ch:10kΩ 0603 0.1W ±1% ±100ppm/°C")
 		(at 137.16 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4700,32 +5676,42 @@
 		(fields_autoplaced yes)
 		(uuid "e68d2971-d884-48de-b0c0-8f4d44c3e9df")
 		(property "Reference" "R64"
-			(at 137.16 49.53 90)
+			(at 137.1854 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 137.16 52.07 90)
+		(property "Value" "10kΩ 0603 0.1W ±1% ±100ppm/°C"
+			(at 122.936 55.88 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 137.16 57.658 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 124.206 55.88 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 55.88 0)
+			(at 137.16 55.88 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "R 0603 0.1W ±1% ±100ppm/°C"
+			(at 125.73 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4733,13 +5719,46 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 137.16 55.88 0)
+		(property "Manufacturer" "Yageo"
+			(at 121.666 55.88 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-071K2L"
+			(at 120.396 55.88 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "DisplayValue0" "10kΩ ±1%"
+			(at 137.1854 50.8 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "DisplayValue1" "0603 0.1W"
+			(at 137.1854 52.07 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "DisplayValue2" "±100ppm"
+			(at 137.1854 53.34 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
 			)
 		)
 		(pin "1"
