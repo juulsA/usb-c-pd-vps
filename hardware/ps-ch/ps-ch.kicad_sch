@@ -2550,168 +2550,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -7924,6 +7762,151 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ps-ch:74279224101"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100Ω@100MHz"
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+						(color 132 0 132 1)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Multilayer Power Suppression Bead"
+				(at 0 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Wuerth Elektronik"
+				(at 0 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "74279224101"
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "ferrite bead"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74279224101_0_1"
+				(rectangle
+					(start -0.635 -2.54)
+					(end 0.635 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "74279224101_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ps-ch:74404064330"
 			(pin_numbers
 				(hide yes)
@@ -8069,6 +8052,151 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ps-ch:744316100"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1µH"
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+						(color 132 0 132 1)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/744316100.pdf"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "High Current Inductor"
+				(at 0 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Wuerth Elektronik"
+				(at 0 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "744316100"
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "744316100_0_1"
+				(rectangle
+					(start -0.635 2.54)
+					(end 0.635 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "744316100_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ps-ch:7443556260"
 			(pin_numbers
 				(hide yes)
@@ -8107,8 +8235,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 2.54 0)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/7443556260.pdf"
+				(at 0 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8134,7 +8262,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer Part Number" "74279228600"
+			(property "Manufacturer Part Number" "7443556260"
 				(at 0 17.78 0)
 				(effects
 					(font
@@ -8143,7 +8271,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "ferrite bead"
+			(property "ki_keywords" "power inductor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -9275,17 +9403,6 @@
 		)
 		(uuid 92fce87b-9af9-4bf6-bd84-aa70a4568c4b)
 	)
-	(text "ferrite!"
-		(exclude_from_sim no)
-		(at 397.51 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "020dd2f5-b59e-4085-bfaf-6d4ce5194654")
-	)
 	(text "7.6uF@5V(-20%)\n3uF@35V(-20%)"
 		(exclude_from_sim no)
 		(at 195.58 86.36 0)
@@ -10130,6 +10247,16 @@
 			(type default)
 		)
 		(uuid "106b9248-5c43-4a8e-b4f6-478be8f4ba3a")
+	)
+	(wire
+		(pts
+			(xy 401.32 78.74) (xy 403.86 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11074eff-b9d3-4911-8a4c-47a6a59ca0fa")
 	)
 	(wire
 		(pts
@@ -11310,6 +11437,16 @@
 			(type default)
 		)
 		(uuid "60823433-bb3a-4afa-a1a8-8b2febd90762")
+	)
+	(wire
+		(pts
+			(xy 403.86 78.74) (xy 403.86 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60cb75f2-e216-46cb-b0d2-bd5f5fcaad92")
 	)
 	(wire
 		(pts
@@ -12550,6 +12687,26 @@
 			(type default)
 		)
 		(uuid "c415a4ad-b02f-40aa-bfdb-736ff00dad28")
+	)
+	(wire
+		(pts
+			(xy 393.7 78.74) (xy 391.16 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4380772-09d5-4bef-b431-7ae6c0714dc9")
+	)
+	(wire
+		(pts
+			(xy 391.16 78.74) (xy 391.16 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c585b972-6e51-4fc6-9947-123192dbddb9")
 	)
 	(wire
 		(pts
@@ -16754,74 +16911,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 179.07 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f1c8ec2-1b17-4213-a5cd-9dad255e8ef0")
-		(property "Reference" "L1"
-			(at 179.07 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L"
-			(at 179.07 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 179.07 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c4f3cb0e-ab6d-4a42-a491-f4912c0ba510")
-		)
-		(pin "2"
-			(uuid "3f19a4ad-5046-4dea-9143-ae704399bbbe")
-		)
-		(instances
-			(project ""
-				(path "/431acd2e-2ab9-4aa9-b759-273f044decc5"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 205.74 66.04 0)
 		(unit 1)
@@ -16882,6 +16971,93 @@
 			(project "ps-ch"
 				(path "/431acd2e-2ab9-4aa9-b759-273f044decc5"
 					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ps-ch:74279224101")
+		(at 397.51 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4232c7d5-2087-4b06-b106-fc9282a09f84")
+		(property "Reference" "L9"
+			(at 397.51 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100Ω@100MHz"
+			(at 397.51 76.2 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(color 132 0 132 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 384.81 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 394.97 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Power Suppression Bead"
+			(at 382.27 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wuerth Elektronik"
+			(at 377.19 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "74279224101"
+			(at 379.73 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "169272d1-5d15-4962-aed0-02ff78efb175")
+		)
+		(pin "1"
+			(uuid "4fa74e10-5493-4e7b-844f-32d33ef940de")
+		)
+		(instances
+			(project "ps-ch"
+				(path "/431acd2e-2ab9-4aa9-b759-273f044decc5"
+					(reference "L9")
 					(unit 1)
 				)
 			)
@@ -17788,6 +17964,93 @@
 			(project "ps-ch"
 				(path "/431acd2e-2ab9-4aa9-b759-273f044decc5"
 					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ps-ch:74279224101")
+		(at 397.51 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5aebfb0c-0626-4823-af86-9db633c9e98f")
+		(property "Reference" "L7"
+			(at 397.51 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100Ω@100MHz"
+			(at 397.51 86.36 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(color 132 0 132 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 384.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 394.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Power Suppression Bead"
+			(at 382.27 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wuerth Elektronik"
+			(at 377.19 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "74279224101"
+			(at 379.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "12231c90-0dbc-454a-bffe-2a9a97bd29a6")
+		)
+		(pin "1"
+			(uuid "91667f0a-f8ea-490d-8fbb-3f8f6fe81466")
+		)
+		(instances
+			(project ""
+				(path "/431acd2e-2ab9-4aa9-b759-273f044decc5"
+					(reference "L7")
 					(unit 1)
 				)
 			)
@@ -19951,6 +20214,93 @@
 		)
 	)
 	(symbol
+		(lib_id "ps-ch:744316100")
+		(at 179.07 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ef13356-cf19-4218-b6fc-930e0d495dd8")
+		(property "Reference" "L1"
+			(at 179.07 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1µH"
+			(at 179.07 86.36 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(color 132 0 132 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/744316100.pdf"
+			(at 166.37 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Current Inductor"
+			(at 163.83 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wuerth Elektronik"
+			(at 158.75 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "744316100"
+			(at 161.29 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c98c26cf-013e-4c63-a2cf-c7e648d5b976")
+		)
+		(pin "1"
+			(uuid "7a8c2460-b4a8-46dd-bfdc-c859f0fd65b3")
+		)
+		(instances
+			(project ""
+				(path "/431acd2e-2ab9-4aa9-b759-273f044decc5"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ps-ch:7443556260")
 		(at 303.53 88.9 90)
 		(unit 1)
@@ -19986,7 +20336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/7443556260.pdf"
 			(at 300.99 88.9 0)
 			(effects
 				(font
@@ -20013,7 +20363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "74279228600"
+		(property "Manufacturer Part Number" "7443556260"
 			(at 285.75 88.9 0)
 			(effects
 				(font
@@ -22621,75 +22971,6 @@
 			(project ""
 				(path "/431acd2e-2ab9-4aa9-b759-273f044decc5"
 					(reference "L5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 397.51 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd023dd8-8454-4224-aa47-ef7748efbedb")
-		(property "Reference" "L9"
-			(at 397.51 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "L"
-			(at 397.51 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 397.51 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 397.51 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 397.51 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "09876662-ac68-482e-98c3-2a5624707e89")
-		)
-		(pin "2"
-			(uuid "c5d63477-8c6a-41e1-8590-04ee5c02f2b2")
-		)
-		(instances
-			(project "ps-ch"
-				(path "/431acd2e-2ab9-4aa9-b759-273f044decc5"
-					(reference "L9")
 					(unit 1)
 				)
 			)
