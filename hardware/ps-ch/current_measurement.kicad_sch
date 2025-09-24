@@ -908,6 +908,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "2mR (add filter?!)\n2.5V @ 12.5A"
+		(exclude_from_sim no)
+		(at 144.78 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4c2e7dd7-7fc5-4e49-9e16-ca0d9265a0a1")
+	)
 	(text "CURRENT MEASUREMENT"
 		(exclude_from_sim no)
 		(at 144.272 42.164 0)

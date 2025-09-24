@@ -2931,6 +2931,26 @@
 		)
 		(uuid "d5346c09-9373-4bdf-8629-af8b296800e3")
 	)
+	(text_box "-the differential amplifier has the exact same range as the output voltage of the power supply, but with a different offset\n-this can be corrected by calibration and consideration in vout_equiv"
+		(exclude_from_sim no)
+		(at 63.5 254 0)
+		(size 88.9 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66513afe-14f4-4221-a39f-ed414e7b53af")
+	)
 	(junction
 		(at 328.93 172.72)
 		(diameter 0)
