@@ -912,7 +912,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ps-ch:AD5686RBCPZ"
+		(symbol "ps-ch:AD5686RBRUZ"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -925,7 +925,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "AD5686RBCPZ"
+			(property "Value" "AD5686RBRUZ"
 				(at -10.16 -20.574 0)
 				(effects
 					(font
@@ -934,8 +934,8 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" ""
-				(at 33.02 -8.89 0)
+			(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+				(at 0 27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -961,6 +961,24 @@
 					(hide yes)
 				)
 			)
+			(property "Manufacturer" "Analog Devices"
+				(at 0 33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "AD5686RBRUZ-RL7"
+				(at 0 30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_fp_filters" "MSOP*3x3mm*P0.5mm*"
 				(at 0 0 0)
 				(effects
@@ -970,7 +988,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AD5686RBCPZ_0_1"
+			(symbol "AD5686RBRUZ_0_1"
 				(rectangle
 					(start 6.35 -26.67)
 					(end 6.35 -26.67)
@@ -983,7 +1001,7 @@
 					)
 				)
 			)
-			(symbol "AD5686RBCPZ_1_1"
+			(symbol "AD5686RBRUZ_1_1"
 				(rectangle
 					(start -10.16 20.32)
 					(end 10.16 -20.32)
@@ -1895,7 +1913,7 @@
 		(uuid "bcd9ca2f-ae30-445f-8e01-e5df63236468")
 	)
 	(symbol
-		(lib_id "ps-ch:AD5686RBCPZ")
+		(lib_id "ps-ch:AD5686RBRUZ")
 		(at 147.32 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1912,7 +1930,7 @@
 				)
 			)
 		)
-		(property "Value" "AD5686RBCPZ"
+		(property "Value" "AD5686RBRUZ"
 			(at 147.32 66.04 0)
 			(effects
 				(font
@@ -1920,8 +1938,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 180.34 97.79 0)
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+			(at 147.32 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1940,6 +1958,24 @@
 		)
 		(property "Description" ""
 			(at 147.32 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 147.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AD5686RBRUZ-RL7"
+			(at 147.32 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)

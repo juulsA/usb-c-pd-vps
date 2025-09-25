@@ -606,8 +606,8 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+				(at 0 30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -615,8 +615,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina301.pdf?ts=1758771169210&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA301"
+				(at 2.54 33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -626,6 +626,24 @@
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 0 38.1 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "INA301A3IDGKR"
+				(at 0 35.56 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1909,7 +1927,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 144.78 93.98 0)
 			(effects
 				(font
@@ -1918,7 +1936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina301.pdf?ts=1758771169210&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA301"
 			(at 144.78 93.98 0)
 			(effects
 				(font
@@ -1929,6 +1947,24 @@
 		)
 		(property "Description" ""
 			(at 144.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 144.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "INA301A3IDGKR"
+			(at 144.78 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
