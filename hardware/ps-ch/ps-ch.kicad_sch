@@ -9205,7 +9205,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ps-ch:OPA992IDCKR"
+		(symbol "ps-ch:OPA992IDBVR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -9218,7 +9218,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "OPA992IDCKR"
+			(property "Value" "OPA992IDBVR"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -9227,8 +9227,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -9236,8 +9236,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa2992.pdf?ts=1758720881687&ref_url=https%253A%252F%252Fco.mouser.com%252F"
+				(at 0 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -9247,6 +9247,24 @@
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "OPA992IDBVR"
+				(at 0 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -9271,7 +9289,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "OPA992IDCKR_1_1"
+			(symbol "OPA992IDBVR_1_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -9294,7 +9312,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9312,7 +9330,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9330,7 +9348,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9339,7 +9357,7 @@
 					)
 				)
 			)
-			(symbol "OPA992IDCKR_2_1"
+			(symbol "OPA992IDBVR_2_1"
 				(rectangle
 					(start -3.81 3.81)
 					(end 3.81 -3.81)
@@ -19155,7 +19173,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ps-ch:OPA992IDCKR")
+		(lib_id "ps-ch:OPA992IDBVR")
 		(at 309.88 182.88 0)
 		(mirror x)
 		(unit 1)
@@ -19173,7 +19191,7 @@
 				)
 			)
 		)
-		(property "Value" "OPA992IDCKR"
+		(property "Value" "OPA992IDBVR"
 			(at 309.88 193.04 0)
 			(effects
 				(font
@@ -19181,8 +19199,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 309.88 182.88 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 309.88 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19190,8 +19208,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 309.88 182.88 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa2992.pdf?ts=1758720881687&ref_url=https%253A%252F%252Fco.mouser.com%252F"
+			(at 309.88 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19201,6 +19219,24 @@
 		)
 		(property "Description" ""
 			(at 309.88 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 309.88 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "OPA992IDBVR"
+			(at 309.88 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22977,7 +23013,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ps-ch:OPA992IDCKR")
+		(lib_id "ps-ch:OPA992IDBVR")
 		(at 346.71 269.24 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -22995,7 +23031,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OPA992IDCKR"
+		(property "Value" "OPA992IDBVR"
 			(at 351.79 270.5099 0)
 			(effects
 				(font
@@ -23004,8 +23040,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 346.71 269.24 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 346.71 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23013,8 +23049,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 346.71 269.24 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa2992.pdf?ts=1758720881687&ref_url=https%253A%252F%252Fco.mouser.com%252F"
+			(at 346.71 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23024,6 +23060,24 @@
 		)
 		(property "Description" ""
 			(at 346.71 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 346.71 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "OPA992IDBVR"
+			(at 346.71 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
