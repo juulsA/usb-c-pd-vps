@@ -1580,7 +1580,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1589,7 +1589,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC126A.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1599,6 +1599,24 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Nexperia"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "74LVC126APW,118"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4167,7 +4185,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 147.32 167.64 0)
 			(effects
 				(font
@@ -4176,7 +4194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC126A.pdf"
 			(at 147.32 167.64 0)
 			(effects
 				(font
@@ -4186,6 +4204,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 147.32 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 147.32 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "74LVC126APW,118"
 			(at 147.32 167.64 0)
 			(effects
 				(font
@@ -4835,7 +4871,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 63.5 167.64 0)
 			(effects
 				(font
@@ -4844,7 +4880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC126A.pdf"
 			(at 63.5 167.64 0)
 			(effects
 				(font
@@ -4854,6 +4890,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 63.5 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 63.5 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "74LVC126APW,118"
 			(at 63.5 167.64 0)
 			(effects
 				(font
@@ -6311,7 +6365,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 96.52 167.64 0)
 			(effects
 				(font
@@ -6320,7 +6374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC126A.pdf"
 			(at 96.52 167.64 0)
 			(effects
 				(font
@@ -6330,6 +6384,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 96.52 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 96.52 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "74LVC126APW,118"
 			(at 96.52 167.64 0)
 			(effects
 				(font
@@ -6649,7 +6721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0ad3e78-8c1a-45a0-b081-65cd079a31ee")
-		(property "Reference" "U18"
+		(property "Reference" "U20"
 			(at 143.51 107.8798 0)
 			(effects
 				(font
@@ -6665,7 +6737,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 132.08 114.3 0)
 			(effects
 				(font
@@ -6674,7 +6746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC126A.pdf"
 			(at 132.08 114.3 0)
 			(effects
 				(font
@@ -6684,6 +6756,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 132.08 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 132.08 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "74LVC126APW,118"
 			(at 132.08 114.3 0)
 			(effects
 				(font
@@ -6740,7 +6830,7 @@
 		(instances
 			(project "ps-ch"
 				(path "/431acd2e-2ab9-4aa9-b759-273f044decc5/8b075681-8e5e-4240-bfaa-b14997f80de9"
-					(reference "U18")
+					(reference "U20")
 					(unit 1)
 				)
 			)
