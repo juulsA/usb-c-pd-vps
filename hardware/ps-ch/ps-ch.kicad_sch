@@ -8658,7 +8658,8 @@
 				(at 0.635 -2.54 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 0.762 0.762)
+						(color 132 0 132 1)
 					)
 					(justify left)
 				)
@@ -9620,6 +9621,17 @@
 			(justify left top)
 		)
 		(uuid "74524500-ba5b-4989-9f4b-41b107cbedd8")
+	)
+	(text "feedback?! better behind switch?!"
+		(exclude_from_sim no)
+		(at 528.32 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "adfba3c9-2075-4005-b584-2546fbbdd9bd")
 	)
 	(text "7.6uF@5V(-20%)\n3uF@35V(-20%)"
 		(exclude_from_sim no)
@@ -18316,7 +18328,8 @@
 			(at 405.13 97.79 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
+					(color 132 0 132 1)
 				)
 				(justify left)
 			)
@@ -23914,7 +23927,8 @@
 			(at 186.69 97.79 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
+					(color 132 0 132 1)
 				)
 				(justify left)
 			)

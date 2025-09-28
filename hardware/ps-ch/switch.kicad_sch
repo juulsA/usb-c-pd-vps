@@ -2179,7 +2179,8 @@
 				(at 0 -2.54 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 0.762 0.762)
+						(color 132 0 132 1)
 					)
 				)
 			)
@@ -2347,7 +2348,8 @@
 				(at 5.08 -1.27 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 0.762 0.762)
+						(color 132 0 132 1)
 					)
 					(justify left)
 				)
@@ -5690,9 +5692,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "51727a41-ddb6-4ca5-82ce-8c453bbbc241")
 		(property "Reference" "Q9"
-			(at 220.98 60.96 90)
+			(at 220.98 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5700,10 +5703,11 @@
 			)
 		)
 		(property "Value" "PSMN059-150Y"
-			(at 220.98 63.5 90)
+			(at 220.98 64.77 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
+					(color 132 0 132 1)
 				)
 			)
 		)
@@ -5796,7 +5800,7 @@
 		(fields_autoplaced yes)
 		(uuid "527441c9-3a88-4159-a3fd-7b462dbff2c8")
 		(property "Reference" "Q4"
-			(at 205.74 60.96 90)
+			(at 205.74 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5804,10 +5808,11 @@
 			)
 		)
 		(property "Value" "PSMN059-150Y"
-			(at 205.74 63.5 90)
+			(at 205.74 64.77 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
+					(color 132 0 132 1)
 				)
 			)
 		)
@@ -6262,7 +6267,7 @@
 		(fields_autoplaced yes)
 		(uuid "97b72851-0a17-4b79-a703-b5ce6486a9a4")
 		(property "Reference" "D1"
-			(at 157.48 96.2024 90)
+			(at 157.48 96.8374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6271,10 +6276,11 @@
 			)
 		)
 		(property "Value" "PMEG60T30ELR"
-			(at 157.48 98.7424 90)
+			(at 157.48 98.7425 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
+					(color 132 0 132 1)
 				)
 				(justify right)
 			)
@@ -7274,7 +7280,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd204975-bf22-4791-8cf0-69cccb233d10")
 		(property "Reference" "D4"
-			(at 246.38 108.9024 90)
+			(at 246.38 109.5374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7283,10 +7289,11 @@
 			)
 		)
 		(property "Value" "PMEG60T30ELR"
-			(at 246.38 111.4424 90)
+			(at 246.38 111.4425 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
+					(color 132 0 132 1)
 				)
 				(justify left)
 			)
