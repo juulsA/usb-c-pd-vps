@@ -4032,7 +4032,7 @@
 		)
 		(uuid "b0d0683a-3f20-4026-8850-fce717e0da33")
 	)
-	(hierarchical_label "DISABLE_VOLTAGE_SENSING"
+	(hierarchical_label "EN_EXT_VSENSE"
 		(shape output)
 		(at 115.57 88.9 180)
 		(effects
