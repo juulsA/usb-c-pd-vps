@@ -251,16 +251,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "f9c72542-abe6-42ff-913a-351575e97526")
 	)
-	(pad "16" smd roundrect
-		(at 0 -0.963 180)
-		(size 0.35 2.975)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.2)
-		(solder_mask_margin 0.05)
-		(thermal_bridge_angle 45)
-		(uuid "377e69cc-a5b2-47ea-b74d-cf1ce775aa29")
-	)
-	(pad "16" smd roundrect
+	(pad "15" smd roundrect
 		(at 1.2 -1.9 180)
 		(size 0.8 1.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
@@ -269,7 +260,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "be1f20f7-979b-4a96-a5d4-a6e59a9397f9")
 	)
-	(pad "16" smd roundrect
+	(pad "15" smd roundrect
 		(at 1.375 -1.725 180)
 		(size 1.15 0.75)
 		(layers "F.Cu" "F.Mask" "F.Paste")
@@ -277,6 +268,15 @@
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 45)
 		(uuid "c31aeee0-fd45-4fd4-a97d-0ae6cf5db02d")
+	)
+	(pad "16" smd roundrect
+		(at 0 -0.963 180)
+		(size 0.35 2.975)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(solder_mask_margin 0.05)
+		(thermal_bridge_angle 45)
+		(uuid "377e69cc-a5b2-47ea-b74d-cf1ce775aa29")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/step-models/RPH0016B.stp"
