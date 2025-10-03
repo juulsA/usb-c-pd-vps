@@ -3443,7 +3443,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "ps-ch:WE-HCI_5040"
 				(at 0 12.7 0)
 				(effects
 					(font
@@ -3730,7 +3730,7 @@
 					(justify top)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "ps-ch:EFD25"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3739,7 +3739,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/750311590.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3749,6 +3749,24 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Wuerth Elektronik"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "750311590"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4834,7 +4852,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "ps-ch:MSD1583"
 				(at 0 1.016 0)
 				(effects
 					(font
@@ -4853,6 +4871,24 @@
 				)
 			)
 			(property "Description" "EMI 2-inductor common mode filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Coilcraft"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "MSD1583-123ME_"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5572,7 +5608,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "ps-ch:SOT669"
 				(at 5.08 2.54 0)
 				(effects
 					(font
@@ -5581,7 +5617,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN059-150Y.pdf"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -5591,6 +5627,24 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Nexperia"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "PSMN059-150Y,115"
 				(at 0 0 0)
 				(effects
 					(font
@@ -9643,7 +9697,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ps-ch:MSD1583"
 			(at 45.72 92.964 0)
 			(effects
 				(font
@@ -9662,6 +9716,24 @@
 			)
 		)
 		(property "Description" "EMI 2-inductor common mode filter"
+			(at 45.72 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Coilcraft"
+			(at 45.72 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "MSD1583-123ME_"
 			(at 45.72 93.98 0)
 			(effects
 				(font
@@ -11329,7 +11401,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ps-ch:SOT669"
 			(at 309.88 142.24 0)
 			(effects
 				(font
@@ -11338,7 +11410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN059-150Y.pdf"
 			(at 314.96 157.48 0)
 			(effects
 				(font
@@ -11376,6 +11448,24 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 314.96 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 314.96 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "PSMN059-150Y,115"
+			(at 314.96 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11698,7 +11788,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ps-ch:EFD25"
 			(at 270.51 105.41 0)
 			(effects
 				(font
@@ -11707,7 +11797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/750311590.pdf"
 			(at 270.51 105.41 0)
 			(effects
 				(font
@@ -11717,6 +11807,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 270.51 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wuerth Elektronik"
+			(at 270.51 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "750311590"
 			(at 270.51 105.41 0)
 			(effects
 				(font
@@ -14331,7 +14439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ps-ch:SOT669"
 			(at 231.14 116.84 0)
 			(effects
 				(font
@@ -14340,7 +14448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN059-150Y.pdf"
 			(at 226.06 132.08 0)
 			(effects
 				(font
@@ -14378,6 +14486,24 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 226.06 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 226.06 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "PSMN059-150Y,115"
+			(at 226.06 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16516,7 +16642,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ps-ch:WE-HCI_5040"
 			(at 114.3 91.44 0)
 			(effects
 				(font

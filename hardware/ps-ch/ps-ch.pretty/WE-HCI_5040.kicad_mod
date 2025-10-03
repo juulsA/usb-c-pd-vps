@@ -1,0 +1,121 @@
+(footprint "WE-HCI_5040"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ad5242d4-344c-4fd4-9f41-4f1ea690d47c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "WE-HCI_5040"
+		(at 0 -0.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ba94d527-db28-41e1-ac8d-e499643f49ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "751878a1-456d-4f01-b7c0-65091877bd17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6f309ca-476b-4dc4-9435-d0eec8b81515")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.25 -3.25)
+		(end 3.25 3.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "63165bfc-810b-4086-afb2-63a07d8a5c97")
+	)
+	(fp_rect
+		(start -2.8 -2.65)
+		(end 2.8 2.65)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6ed3527e-6cdb-4bc3-b2d8-78e1e95b1aec")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8b199c4f-a0ce-488e-9f32-f033785c8040")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 -2.05 180)
+		(size 1.6 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.03125)
+		(solder_mask_margin 0.05)
+		(thermal_bridge_angle 45)
+		(uuid "bee6fae4-452d-4c7e-b959-99c7b55c476a")
+	)
+	(pad "2" smd roundrect
+		(at 0 2.05 180)
+		(size 1.6 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.03125)
+		(solder_mask_margin 0.05)
+		(thermal_bridge_angle 45)
+		(uuid "491c128b-1c75-479b-b9be-95db3af43b8c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/step-models/WE-HCI_5040.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)

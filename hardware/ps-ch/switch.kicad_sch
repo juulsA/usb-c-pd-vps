@@ -1970,7 +1970,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1989,6 +1989,24 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "LM74502HDDFR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2354,7 +2372,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "ps-ch:SOT669"
 				(at 5.08 2.54 0)
 				(effects
 					(font
@@ -2363,7 +2381,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN059-150Y.pdf"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -2373,6 +2391,24 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Nexperia"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "PSMN059-150Y,115"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4787,7 +4823,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
 			(at 200.66 86.36 0)
 			(effects
 				(font
@@ -4806,6 +4842,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 200.66 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 200.66 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "LM74502HDDFR"
 			(at 200.66 86.36 0)
 			(effects
 				(font
@@ -5711,7 +5765,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ps-ch:SOT669"
 			(at 223.52 68.58 0)
 			(effects
 				(font
@@ -5720,7 +5774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN059-150Y.pdf"
 			(at 208.28 73.66 0)
 			(effects
 				(font
@@ -5758,6 +5812,24 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 205.74 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 220.98 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "PSMN059-150Y,115"
+			(at 220.98 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5816,7 +5888,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ps-ch:SOT669"
 			(at 203.2 68.58 0)
 			(effects
 				(font
@@ -5825,7 +5897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN059-150Y.pdf"
 			(at 218.44 73.66 0)
 			(effects
 				(font
@@ -5863,6 +5935,24 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 220.98 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 205.74 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "PSMN059-150Y,115"
+			(at 205.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)

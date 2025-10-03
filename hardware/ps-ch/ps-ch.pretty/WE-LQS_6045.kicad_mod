@@ -1,0 +1,121 @@
+(footprint "WE-LQS_6045"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a8033689-014c-4af6-9cfb-333dc77f619e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "WE-LQS_6045"
+		(at 0 -0.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "604cb7c1-2b52-43a2-9899-df41e5b5b3bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d96a1956-1348-4078-a797-cb1a13db6ab3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49cbda43-bddb-4058-9f1d-6c53e98660e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.5 -3.5)
+		(end 3.5 3.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3a9bea04-2994-43d1-8287-4439b8411b6e")
+	)
+	(fp_rect
+		(start -3 -3)
+		(end 3 3)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f42594a6-2596-4080-840a-6de7adc31d75")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e3172d43-a627-4c72-bc89-a098c5e4cecd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 -2.3 180)
+		(size 5.7 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.02777777778)
+		(solder_mask_margin 0.05)
+		(thermal_bridge_angle 45)
+		(uuid "9466b341-c3d8-4539-8dcb-2a03c519d80a")
+	)
+	(pad "2" smd roundrect
+		(at 0 2.3 180)
+		(size 5.7 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.02777777778)
+		(solder_mask_margin 0.05)
+		(thermal_bridge_angle 45)
+		(uuid "c7170d7d-47f9-42a3-9fee-cbcfcaa2eb97")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/step-models/WE-LQS_6045.stp"
+		(offset
+			(xyz 0 0 2.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
