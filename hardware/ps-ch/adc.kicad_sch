@@ -2111,7 +2111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a805633-f008-418c-93ef-601badfd5294")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0125"
 			(at 165.1 115.57 0)
 			(effects
 				(font
@@ -2161,7 +2161,7 @@
 		(instances
 			(project "ps-ch"
 				(path "/431acd2e-2ab9-4aa9-b759-273f044decc5/c67e88b1-f689-4201-bfe2-5853de22cc3f"
-					(reference "#PWR0127")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -2829,7 +2829,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51423686-2fbb-4e4a-be42-34328a7ba62b")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0118"
 			(at 66.04 64.77 0)
 			(effects
 				(font
@@ -2879,7 +2879,7 @@
 		(instances
 			(project "ps-ch"
 				(path "/431acd2e-2ab9-4aa9-b759-273f044decc5/c67e88b1-f689-4201-bfe2-5853de22cc3f"
-					(reference "#PWR0120")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -3007,7 +3007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55d4bd7d-d2f4-44c4-8d22-a157760456b6")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0124"
 			(at 154.94 115.57 0)
 			(effects
 				(font
@@ -3057,7 +3057,7 @@
 		(instances
 			(project "ps-ch"
 				(path "/431acd2e-2ab9-4aa9-b759-273f044decc5/c67e88b1-f689-4201-bfe2-5853de22cc3f"
-					(reference "#PWR0126")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -3300,7 +3300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74db64ff-5bbd-46be-aab5-d88e8b82dd0c")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0123"
 			(at 144.78 115.57 0)
 			(effects
 				(font
@@ -3350,7 +3350,7 @@
 		(instances
 			(project "ps-ch"
 				(path "/431acd2e-2ab9-4aa9-b759-273f044decc5/c67e88b1-f689-4201-bfe2-5853de22cc3f"
-					(reference "#PWR0125")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -3477,7 +3477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91c868a5-7688-494f-b597-ba12f6710edc")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0120"
 			(at 78.74 86.36 0)
 			(effects
 				(font
@@ -3527,7 +3527,7 @@
 		(instances
 			(project "ps-ch"
 				(path "/431acd2e-2ab9-4aa9-b759-273f044decc5/c67e88b1-f689-4201-bfe2-5853de22cc3f"
-					(reference "#PWR0122")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -3656,7 +3656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c717e54c-fd06-45fe-bc5e-3607a6323539")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0119"
 			(at 66.04 86.36 0)
 			(effects
 				(font
@@ -3706,7 +3706,7 @@
 		(instances
 			(project "ps-ch"
 				(path "/431acd2e-2ab9-4aa9-b759-273f044decc5/c67e88b1-f689-4201-bfe2-5853de22cc3f"
-					(reference "#PWR0121")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -3722,7 +3722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd59cb5e-4b75-4f33-b779-d86683510e89")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR0126"
 			(at 175.26 115.57 0)
 			(effects
 				(font
@@ -3772,7 +3772,7 @@
 		(instances
 			(project "ps-ch"
 				(path "/431acd2e-2ab9-4aa9-b759-273f044decc5/c67e88b1-f689-4201-bfe2-5853de22cc3f"
-					(reference "#PWR0128")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -3899,7 +3899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1848992-31dc-4812-999a-eb9d0d48207c")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR0121"
 			(at 88.9 86.36 0)
 			(effects
 				(font
@@ -3949,7 +3949,7 @@
 		(instances
 			(project "ps-ch"
 				(path "/431acd2e-2ab9-4aa9-b759-273f044decc5/c67e88b1-f689-4201-bfe2-5853de22cc3f"
-					(reference "#PWR0123")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -4080,7 +4080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb233ca8-da46-41f1-828b-b27caf04450a")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0122"
 			(at 132.08 115.57 0)
 			(effects
 				(font
@@ -4130,7 +4130,7 @@
 		(instances
 			(project "ps-ch"
 				(path "/431acd2e-2ab9-4aa9-b759-273f044decc5/c67e88b1-f689-4201-bfe2-5853de22cc3f"
-					(reference "#PWR0124")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
