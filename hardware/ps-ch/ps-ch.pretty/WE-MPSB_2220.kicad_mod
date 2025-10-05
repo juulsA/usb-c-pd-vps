@@ -107,4 +107,15 @@
 		(uuid "0ff132c0-a725-4385-bec0-329ad74c6f91")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/step-models/74279224101.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

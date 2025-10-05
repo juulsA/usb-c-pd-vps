@@ -4603,6 +4603,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:BSS138"
 			(pin_names
 				(hide yes)
@@ -12324,6 +12431,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 363.22) (xy 64.77 365.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0727ec25-7f45-40f0-947f-34b479e08285")
+	)
+	(wire
+		(pts
 			(xy 342.9 146.05) (xy 342.9 233.68)
 		)
 		(stroke
@@ -14484,6 +14601,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 381) (xy 40.64 383.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "810f091f-95c1-4136-ba46-8f9bc58e44ea")
+	)
+	(wire
+		(pts
 			(xy 43.18 170.18) (xy 109.22 170.18)
 		)
 		(stroke
@@ -15261,6 +15388,16 @@
 			(type default)
 		)
 		(uuid "ad0e9006-c6c2-4260-a41b-3245206cb7f5")
+	)
+	(wire
+		(pts
+			(xy 64.77 381) (xy 64.77 383.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae60796e-9587-4c4a-b599-a9ead9e6c272")
 	)
 	(wire
 		(pts
@@ -16684,6 +16821,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 363.22) (xy 40.64 365.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbced63f-54d3-4ec5-ba86-33610c33badc")
+	)
+	(wire
+		(pts
 			(xy 139.7 172.72) (xy 172.72 172.72)
 		)
 		(stroke
@@ -16975,6 +17122,16 @@
 			)
 		)
 	)
+	(label "~{OCP}"
+		(at 187.96 330.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14b316a9-1f5c-496f-bdda-69873af12816")
+	)
 	(label "AIN1"
 		(at 284.48 233.68 0)
 		(effects
@@ -16985,6 +17142,16 @@
 		)
 		(uuid "2374b29d-5c7a-45f2-a600-e291dfee8d56")
 	)
+	(label "DISCHARGE"
+		(at 187.96 332.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a75b395-a99d-4415-90f6-b9971953f6dc")
+	)
 	(label "ADC_REF"
 		(at 284.48 238.76 0)
 		(effects
@@ -16994,6 +17161,16 @@
 			(justify left bottom)
 		)
 		(uuid "457feb93-7d90-44e4-9ce2-a69f4c46cce9")
+	)
+	(label "SCK"
+		(at 187.96 340.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ea7cabb-fbb8-47fc-865b-cc82a60b8873")
 	)
 	(label "ACTIVATE_BOOTLOADER"
 		(at 58.42 167.64 0)
@@ -17006,14 +17183,24 @@
 		(uuid "714c8220-e048-45f6-a133-90625069fc65")
 	)
 	(label "PG"
-		(at 203.2 325.12 180)
+		(at 187.96 325.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "74b0b074-22c6-4a72-bef4-b7ec011cf836")
+	)
+	(label "EN_OUTPUT"
+		(at 187.96 327.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "893e64f2-9c6d-4c64-ba63-69b75ae81758")
 	)
 	(label "AIN1"
 		(at 284.48 233.68 0)
@@ -17025,6 +17212,16 @@
 		)
 		(uuid "9698c762-529d-4f67-bc2a-5c6fdf80146d")
 	)
+	(label "~{ADC_CS}"
+		(at 187.96 335.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d2d854d-02d9-4512-806f-5d4c3aa11a03")
+	)
 	(label "AIN0"
 		(at 284.48 231.14 0)
 		(effects
@@ -17034,6 +17231,16 @@
 			(justify left bottom)
 		)
 		(uuid "a423d093-ffc8-4593-b1f2-fc418e292f82")
+	)
+	(label "EN_PWR_SPL"
+		(at 187.96 322.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a883962b-9d73-4baa-b4c6-c5a7a45efc8a")
 	)
 	(label "UART_RX"
 		(at 58.42 172.72 0)
@@ -17055,6 +17262,26 @@
 		)
 		(uuid "b666f78f-3c09-4f4c-b6d4-78c0a062ecab")
 	)
+	(label "MISO"
+		(at 187.96 342.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bcd52b00-14f6-45be-b1f8-533b6363f19a")
+	)
+	(label "MOSI"
+		(at 187.96 345.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c03d1fdd-37c5-48dc-8b21-093acb1f519a")
+	)
 	(label "AIN2"
 		(at 284.48 236.22 0)
 		(effects
@@ -17074,6 +17301,16 @@
 			(justify left bottom)
 		)
 		(uuid "da2ef2d0-c6a3-4811-8f81-215446ce4901")
+	)
+	(label "~{DAC_CS}"
+		(at 187.96 337.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e18b95e9-6b64-4589-8051-39f32366a62e")
 	)
 	(label "NRST"
 		(at 58.42 165.1 0)
@@ -18982,6 +19219,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 40.64 360.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f49f701-2c00-4e4e-ab26-4487ed19ad57")
+		(property "Reference" "H1"
+			(at 43.18 358.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 43.18 360.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 40.64 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 40.64 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8a96f93-7971-49b2-bad7-04ffbbb3b573")
+		)
+		(instances
+			(project ""
+				(path "/431acd2e-2ab9-4aa9-b759-273f044decc5"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 195.58 66.04 0)
 		(unit 1)
@@ -19831,6 +20135,73 @@
 			(project "ps-ch"
 				(path "/431acd2e-2ab9-4aa9-b759-273f044decc5"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 40.64 378.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "217b5516-2ba5-4701-be55-4bdcc51f7da8")
+		(property "Reference" "H2"
+			(at 43.18 375.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 43.18 378.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 40.64 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 40.64 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30cb3181-174c-47e7-9233-bd1e5e37fb10")
+		)
+		(instances
+			(project "ps-ch"
+				(path "/431acd2e-2ab9-4aa9-b759-273f044decc5"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -22506,6 +22877,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 64.77 383.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f8176a9-5c57-46a4-94e9-6482e8719f53")
+		(property "Reference" "#PWR0171"
+			(at 64.77 389.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 64.77 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 64.77 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5bc08eb9-23a3-4022-b258-ad9b371f2510")
+		)
+		(instances
+			(project "ps-ch"
+				(path "/431acd2e-2ab9-4aa9-b759-273f044decc5"
+					(reference "#PWR0171")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "0.1μF 0603 100Vdc X7R ±20%_2")
 		(lib_id "ps-ch:0.1μF 0603 100Vdc X7R ±20%")
 		(at 195.58 49.53 0)
@@ -24544,6 +24981,73 @@
 			(project "ps-ch"
 				(path "/431acd2e-2ab9-4aa9-b759-273f044decc5"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 64.77 378.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fd8fd4b-8b3f-487d-9cd0-fdb71737f604")
+		(property "Reference" "H4"
+			(at 67.31 375.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 67.31 378.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 64.77 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 64.77 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abde0392-dea4-4776-af72-aaff3d857858")
+		)
+		(instances
+			(project "ps-ch"
+				(path "/431acd2e-2ab9-4aa9-b759-273f044decc5"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -27355,6 +27859,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 40.64 365.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2646be7-9acd-4396-950c-0c4057d99cba")
+		(property "Reference" "#PWR0168"
+			(at 40.64 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 40.64 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 40.64 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61ec40fc-7bbd-4555-9720-979ed6e5780a")
+		)
+		(instances
+			(project "ps-ch"
+				(path "/431acd2e-2ab9-4aa9-b759-273f044decc5"
+					(reference "#PWR0168")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 226.06 152.4 0)
 		(unit 1)
@@ -27842,6 +28412,72 @@
 			(project "ps-ch"
 				(path "/431acd2e-2ab9-4aa9-b759-273f044decc5"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 64.77 365.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbd90c16-c405-40ef-a2a9-7e7375cab151")
+		(property "Reference" "#PWR0170"
+			(at 64.77 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 64.77 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 64.77 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9ca8c5f-7a73-45b7-acce-21ef0deec081")
+		)
+		(instances
+			(project "ps-ch"
+				(path "/431acd2e-2ab9-4aa9-b759-273f044decc5"
+					(reference "#PWR0170")
 					(unit 1)
 				)
 			)
@@ -29420,6 +30056,139 @@
 			(project "ps-ch"
 				(path "/431acd2e-2ab9-4aa9-b759-273f044decc5"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 64.77 360.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea00a307-079c-443b-955a-b5975578af1f")
+		(property "Reference" "H3"
+			(at 67.31 358.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 67.31 360.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 64.77 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 64.77 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c00dc2c7-fe39-4d89-93e5-b87e536bcdf1")
+		)
+		(instances
+			(project "ps-ch"
+				(path "/431acd2e-2ab9-4aa9-b759-273f044decc5"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 40.64 383.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea8efb74-fbc1-4fa8-ab04-6b9451b4f0f1")
+		(property "Reference" "#PWR0169"
+			(at 40.64 389.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 40.64 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 40.64 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea8a83d2-cbd9-48c1-b550-b636b7ca88e3")
+		)
+		(instances
+			(project "ps-ch"
+				(path "/431acd2e-2ab9-4aa9-b759-273f044decc5"
+					(reference "#PWR0169")
 					(unit 1)
 				)
 			)
